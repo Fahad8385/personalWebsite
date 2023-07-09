@@ -1,0 +1,362 @@
+/*  Start Components */
+.f-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.f-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+/*  End Components */
+
+/* Start Box */
+.d-flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-c {
+    align-items: center;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+    .direction-column-mobile {
+        flex-direction: column;
+    }
+}
+
+.d-grid {
+    display: grid;
+}
+
+.gap-80 {
+    gap: 80px;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-5 {
+    gap: 5px;
+}
+
+.d-block {
+    display: block;
+}
+
+
+@media (max-width: 767px) {
+    .d-block-mobile {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .image-none {
+        display: none;
+    }
+}
+/* End Box */
+
+/* Start Margin, Padding */
+.m-auto {
+    margin: auto;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mt-20 {
+    margin-top: 20px
+}
+
+.mt-15 {
+    margin-top: 15px
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.pt-20  {
+    padding-top: 20px;
+}
+
+.pt-10  {
+    padding-top: 10px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+/* End Margin, Padding */
+
+/* Start Width, Height */
+.w-full {
+    width: 100%;
+}
+
+.fit-width {
+    width: fit-content;
+}
+
+.flow-hidden {
+    overflow: hidden;
+}
+/* End Width, Height */
+
+/* Start Text */
+.txt-c {
+    text-align: center;
+}
+
+.txt-r {
+    text-align: right;
+}
+
+@media (max-width: 767px) {
+    .txt-c-mobile {
+        text-align: center;
+    }
+}
+
+.upper-trans {
+    text-transform: uppercase;
+}
+
+.capi-trans {
+    text-transform: capitalize;
+}
+
+.lower-trans {
+    text-transform: lowercase;
+}
+
+.line-height {
+    line-height: 1.7;
+}
+/* End Text */
+
+/* Start Colors */
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-eee {
+    background-color: #eee;
+}
+
+.bg-blue {
+    background-color: var(--blue-color);
+}
+
+.bg-red {
+    background-color: var(--red-color);
+}
+
+.bg-green {
+    background-color: var(--green-color);
+}
+
+.bg-orange {
+    background-color: var(--orange-color);
+}
+
+.bg-grey {
+    background-color: var(--grey-color);
+}
+
+.c-grey {
+    color: var(--grey-color);
+}
+
+.c-blue {
+    color: var(--blue-color)
+}
+
+.c-red {
+    color: var(--red-color)
+}
+
+.c-orange {
+    color: var(--orange-color)
+}
+
+.c-green {
+    color: var(--green-color)
+}
+
+.c-white {
+    color: white;
+}
+
+.c-lightred {
+    color: var(--mainColor);
+}
+/* End Colors */
+
+/* Start Position */
+.p-relative {
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+}
+/* End Position */
+
+/* Start Border */
+.rad-half {
+    border-radius: 50%;
+}
+
+.rad-10 {
+    border-radius: 10px;
+}
+
+.rad-6 {
+    border-radius: 6px;
+}
+
+.b-none {
+    border: none;
+}
+
+.b-1px-ccc {
+    border: 1px solid #ccc;
+}
+/* End Border */
+
+/* Start Fonts */
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.weight-b {
+    font-weight: bold
+}
+
+.weight-900 {
+    font-weight: 900;
+}
+
+.weight-500 {
+    font-weight: 500;
+}
+
+.weight-300 {
+    font-weight: 300;
+}
+/* End Fonts */
